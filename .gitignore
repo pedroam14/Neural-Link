@@ -1,0 +1,13 @@
+**.meta
+Library/
+Build/
+.vscode/
+Logs/
+obj/
+Assets/Image Translator/
+Packages/
+ProjectSettings/
+Temp/
+Assets/PostProcessing
+Assets/StreamingAssets/
+Assets/Test

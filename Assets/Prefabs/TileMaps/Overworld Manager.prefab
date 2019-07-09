@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2551354640762245709
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2551354640762245711}
+  - component: {fileID: 2551354640762245708}
+  - component: {fileID: 2551354640762245710}
+  m_Layer: 0
+  m_Name: Overworld Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2551354640762245711
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2551354640762245709}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.4367027, y: 2.4235134, z: 1.7418666}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2551354640762245708
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2551354640762245709}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_GeneratorAsset: {fileID: 0}
+  m_Script: {fileID: 11500000, guid: 45e26c9c3f8c2d6ff90c1ecc09a6002c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mapSize: {x: 150, y: 100}
+  seed: 
+  useRandomSeed: 1
+  randomFillPercent: 33
+  radialFactor: 0.09
+  quadraticGradient: 0
+  perlin: 1
+  smoothingIteractions: 3
+  topMap: {fileID: 0}
+  botMap: {fileID: 0}
+  topTile: {fileID: 11400000, guid: 5b8d9c133a17e33aca7525e3bbd31b76, type: 2}
+  botTile: {fileID: 11400000, guid: b36d3736cc3b325e6a641e2f54267fb1, type: 2}
+  edgeTile: {fileID: 0}
+  mapDrawn: 0
+--- !u!114 &2551354640762245710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2551354640762245709}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_GeneratorAsset: {fileID: 0}
+  m_Script: {fileID: 11500000, guid: 7e6822a7a675c7980a05758d376b814b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mapSize: {x: 150, y: 100}
+  scale: 0
+  octaves: 0
+  persistence: 0
+  lacunarity: 0
+  iniChance: 32
+  birthLimit: 3
+  deathLimit: 3
+  numR: 2
+  tmpSize: {x: 150, y: 100, z: 0}
+  topMap: {fileID: 0}
+  botMap: {fileID: 0}
+  topTile: {fileID: 11400000, guid: 5b8d9c133a17e33aca7525e3bbd31b76, type: 2}
+  botTile: {fileID: 11400000, guid: b36d3736cc3b325e6a641e2f54267fb1, type: 2}
